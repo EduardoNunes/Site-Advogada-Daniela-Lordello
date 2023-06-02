@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Lordello Advogada</title>
+</head>
+<body>
+    <div class="pre-header">
+        <img src="assets/sol.png" onclick="lightDark()" id="light-dark" alt="light">
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/logo-reduzida-color-120px.png" alt="Logo Daniela Lordello"></a>
+            </div>
+            
+            <nav>
+                <ul class="menu-lista">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Áreas de atuação</a></li>
+                    <li><a href="#">Depoimento</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+
+                <div class="menu-hamburger" onclick="abrirHamburger()">
+                    <img src="assets/menu.png" id="on-off" alt="Menu Sanduíche">
+                </div>
+            </nav>
+
+    
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://instagram.com/danielalordelloadv?igshid=NTc4MTIwNjQ2YQ==" target="_blank" alt="instagram">
+                        <img src="assets/icon-instagram.png" alt="ícone instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/daniela-lordello-2b9358138/" target="_blank" alt="linkedin">
+                        <img src="assets/icons8-linkedin-a-business-and-employment-oriented-service-mobile-app-48.png" alt="ícone linkedin">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <nav class="menu-hamburger-aberto" id="menuHamburger">
+            <div class="botao-sair-tela-hamburger" >
+                <img src="assets/x-preto.png" onclick="abrirHamburger()" alt="Botão sair">
+            </div>
+
+            <ul class="menu-lista-hamburger">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Áreas de atuação</a></li>
+                <li><a href="#">Depoimento</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+            <ul class="redes-sociais-hamburger">
+                <li>
+                    <a href="https://instagram.com/danielalordelloadv?igshid=NTc4MTIwNjQ2YQ==" target="_blank" alt="instagram">
+                        <img src="assets/icon-instagram.png" alt="ícone instagram">
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://www.linkedin.com/in/daniela-lordello-2b9358138/" target="_blank" alt="linkedin">
+                        <img src="assets/icons8-linkedin-a-business-and-employment-oriented-service-mobile-app-48.png" alt="ícone linkedin">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<script src="index.js"></script>
+<script src="light-dark.js"></script>
+</html>
